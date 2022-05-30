@@ -1,0 +1,113 @@
+
+section {    
+    width: 210px;
+    height: 380px;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 10px 10px 10px 10px rgb(196, 192, 192);
+    border: double 8px; color: rgb(223, 126, 202);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(216, 106, 183);
+}
+
+section div div {
+    display: flex;
+    flex: content;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.oito_digtis {
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    top: 60px;
+    left: 180px;
+}
+
+section div div div {
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+    height: 22px;
+    background-color: rgb(87, 75, 75);
+    border: solid 5px; color: rgb(7, 6, 7);
+}
+
+.tela_saida .tilibra {
+    width: 40px;
+    text-align: center;
+    border: double 5px; color: rgb(53, 44, 51);    
+    border-radius: 8px;
+}
+
+.tela_saida .tc03 {
+    color:black;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.tela_saida {
+    border: solid 5px; color: rgb(134, 85, 124);
+    border-radius: 10px;
+    border-inline: 10px;
+}
+
+section a {
+    display: flex;
+    justify-content: flex-end;    
+    justify-items: flex-end;
+    background-color: azure;
+    font-size: 45px;
+    padding-right: 5px;
+    border: solid 10px; color: rgb(15, 9, 14);
+    border-radius: 15px;
+    height: 60px;    
+}
+
+section button {
+    margin: 3px;
+    width: 35px;
+    height: 40px;
+    color: rgb(252, 252, 252);
+    background-color: black;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_a {
+    border-radius: 50%;
+    height: 30px !important;
+    font-size: 10px;
+    text-align: center;
+}
+
+.button_b {
+    background-color: rgba(233, 64, 64, 0.493) !important;
+    border-radius: 50%;
+    height: 30px !important;
+    font-size: 10px;
+}
+
+.botao_somar {
+    height: 86px !important;
+}
+
+.botao321- {
+    position: relative;
+    top: -23px
+}
+
+.botao_ponto_mais_barra_menos {
+    position: relative;
+    top: -46px
+}
+
+.igual {
+    position: relative;
+    top: -46px;
+    left: 41px;
+}
